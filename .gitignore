@@ -1,4 +1,13 @@
-*
+# 忽略中间文件和临时目录
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+*.sln
+
+# 保留以下内容
 !Source/
-!Source/**
+!Config/
 !.gitignore
